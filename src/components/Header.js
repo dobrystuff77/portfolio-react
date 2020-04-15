@@ -18,9 +18,10 @@ const useStyles = makeStyles(theme => ({
     top: "50%",
     left: "50%",
     transform: "translate(-50%,-50%)",
-    width: "100vw",
+    width: "100%",
     textAlign: "center",
-    zIndex: "1"
+    zIndex: "1",
+    border: "2px solid yellow"
   }
 }));
 
@@ -34,7 +35,7 @@ const Header = () => {
       </Grid>
 
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["Adrian Wysocki"]} typeSpeed={20} />
+        <Typed strings={["Adrian Wysocki"]} typeSpeed={50} />
       </Typography>
       <br />
       <Typography className={classes.subtitle} variant="h5">

@@ -106,10 +106,19 @@ const Navbar = () => {
 
   return (
     <>
-      <Box component="nav">
+      <Box
+        component="nav"
+        style={{
+          border: "2px solid green",
+          position: "fixed",
+          // position: "absolute",
+          width: "100%",
+          zIndex: "100"
+        }}
+      >
         <AppBar
           position="static"
-          style={{ background: "#222", border: "2px solid blue" }}
+          style={{ background: "transparent", border: "2px solid blue" }}
         >
           <Toolbar style={{ border: "2px solid pink" }}>
             <IconButton

@@ -1,9 +1,23 @@
 body {
-  background: url(coffee-apple.jpg) no-repeat center center fixed;
+  /* background: url(coffee-apple.jpg) no-repeat center center fixed; */
+  background: purple;
+  /* width: 100vw; */
+  height: 100vh;
   border: 2px solid red;
   object-fit: cover;
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;
   background-size: cover;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  /* display: flex; */
+}
+
+.omnie {
+  color: white;
+  border: 2px solid pink;
+  height: 500px;
 }
