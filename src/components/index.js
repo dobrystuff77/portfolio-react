@@ -41,7 +41,9 @@ const Home = () => {
         }}
       />
       <div className={classes.aboutContainer}>
-        <div className="omnie">OMNIE fffffffffffffffffffffff</div>
+        <div className="omnie" id="aboutme">
+          OMNIE fffffffffffffffffffffff
+        </div>
       </div>
     </>
   );

@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Avatar, Grid, Box } from "@material-ui/core";
 import avatar from "../avatar.png";
 import Typed from "react-typed";
-
+import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 // CSS styles
 const useStyles = makeStyles(theme => ({
   avatar: {
@@ -22,6 +22,13 @@ const useStyles = makeStyles(theme => ({
     textAlign: "center",
     zIndex: "1",
     border: "2px solid yellow"
+  },
+  arrowDown: {
+    color: "white",
+    height: "100px",
+    width: "100px",
+    border: "2px solid orange"
+    // marginTop: "200px"
   }
 }));
 
@@ -49,6 +56,14 @@ const Header = () => {
           loop
         />
       </Typography>
+      <Grid container justify="center">
+        <a href="#aboutme">
+          <KeyboardArrowDownIcon
+            className={classes.arrowDown}
+            fontSize="large"
+          />
+        </a>
+      </Grid>
     </Box>
   );
 };
