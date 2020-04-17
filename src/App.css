@@ -1,24 +1,108 @@
 body {
-  /* background: url(coffee-apple.jpg) no-repeat center center fixed; */
-  background: purple;
-  /* width: 100vw; */
-  height: 100vh;
-  border: 2px solid red;
-  object-fit: cover;
-  -webkit-background: cover;
-  -moz-background: cover;
-  -o-background: cover;
-  background-size: cover;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
-
-  /* display: flex; */
+  font-family: "Montserrat", sans-serif;
 }
 
-.omnie {
+/* //////////////////////////////////////////////////////////////////////////////// */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  background: transparent;
   color: white;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* top: 20px; */
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+  transition: background 250ms ease-in;
+}
+
+.navbar-scrolled {
+  box-shadow: 0 3px 20px rgba(black, 0.2);
+  color: skyblue;
+  background: white;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: right;
+}
+
+.navbar ul li {
+  /* color: white; */
+  font-size: 1em;
+  padding-right: 20px;
+  display: inline;
+  cursor: pointer;
+}
+
+.main-section {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
   border: 2px solid pink;
-  height: 500px;
+  left: 0px;
+  top: 0px;
+}
+
+.about-section {
+  position: absolute;
+  top: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: mediumpurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 110px;
+}
+
+.projects-section {
+  position: absolute;
+  top: 200vh;
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 110px;
+}
+
+.contact-section {
+  position: absolute;
+  top: 300vh;
+  width: 100%;
+  height: 100vh;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 110px;
 }
