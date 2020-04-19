@@ -2,25 +2,32 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
+import Avatar from "./avatar-edit.png";
 
 class Main extends Component {
   state = {};
   render() {
     return (
       <div className="main-section" id="main">
-        <Particles
-          canvasClassName="particles"
-          params={{
-            particles: {
-              number: {
-                value: 120
-              }
-            }
-          }}
-        />
         <div className="main-text">
-          <h2>Junior Fullstack Web Developer</h2>
-          <p>Programmer with background in jazz musik, and passion for code!</p>
+          <Particles
+            canvasClassName="particles"
+            params={{
+              particles: {
+                number: {
+                  value: 120
+                }
+              }
+            }}
+          />
+          <div class="triangle-two">
+            <img src={Avatar} alt="avar" className="avatar-two" />
+          </div>
+          <div class="triangle"></div>
+          <div class="title">Junior Full Stack Web Developer</div>
+          <div className="short-note">
+            Programmer with background in jazz music, and passion for coding!
+          </div>
         </div>
       </div>
     );
@@ -28,7 +35,11 @@ class Main extends Component {
 }
 
 export default Main;
-//
+
+// <div class="triangle">
+//   <img src={Avatar} alt="avar" className="avatar" />
+// </div>
+
 // <Link
 //   activeClass="active"
 //   to="about-section"
