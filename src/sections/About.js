@@ -14,6 +14,13 @@ class About extends Component {
           the more I feel the need to learn. I'm naturally curious, open minded
           and I love to work in a team :)
         </div>
+        <div className="smaller-title">I work with:</div>
+        <div className="languages-container">
+          <div className="language-div"></div>
+          <div className="language-div"></div>
+          <div className="language-div"></div>
+          <div className="language-div"></div>
+        </div>
       </div>
     );
   }

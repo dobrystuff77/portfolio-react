@@ -76,10 +76,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 80px;
+
   align-items: center;
   color: white;
   font-size: 30px;
+  padding-top: 60px;
   padding-bottom: 100px;
 }
 
@@ -101,6 +102,16 @@ body {
   text-align: center;
 }
 
+.smaller-title {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 .short-note {
   margin-top: 10px;
   font-size: 25px;
@@ -120,7 +131,7 @@ body {
 }
 
 .triangle {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   width: 0px;
   height: 0px;
   border-top: 170px solid white;
@@ -172,7 +183,7 @@ body {
   /* position: absolute;
   top: 100vh; */
   width: 100%;
-  min-height: 80vh;
+  min-height: 70vh;
   /* background-color: skyblue; */
   display: flex;
   flex-direction: column;
@@ -181,30 +192,59 @@ body {
   color: white;
   /* padding-top: 140px; */
   /* font-size: 110px; */
-  padding-top: 80px;
+  padding-top: 85px;
 }
 
 .about-section .title {
   color: black;
   width: 90%;
+  margin-bottom: 30px;
 }
 
 .about-section .short-note {
   color: black;
   width: 80%;
+  margin-bottom: 20px;
+}
+.languages-container {
+  /* margin-top: 40px; */
+  width: 80%;
+  /* height: 500px; */
+  /* height: 100%; */
+  /* border-top-left-radius: 30px;
+  border-top-right-radius: 30px; */
+  background-color: skyblue;
+  /* -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc; */
+  box-shadow: 0 0 5px #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+.language-div {
+  width: 180px;
+  height: 100px;
+  background: pink;
+  margin: 5px;
+  /* -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc; */
+}
 /* /////////////////////////////////////////////////////////////////////////////////// */
 .projects-section {
   /* position: absolute;
   top: 200vh; */
-  width: 100%;
   height: 100vh;
-  background-color: green;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  padding-top: 40px;
+  /* border-top-left-radius: 30px;
+  border-top-right-radius: 30px; */
+  background: green;
   /* font-size: 110px; */
 }
 
