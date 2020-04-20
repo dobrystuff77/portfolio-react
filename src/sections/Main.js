@@ -3,7 +3,6 @@ import Particles from "react-particles-js";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
 import Avatar from "./avatar-edit.png";
-
 class Main extends Component {
   state = {};
   render() {
