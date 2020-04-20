@@ -16,9 +16,6 @@ class Projects extends Component {
           <div className="project-div"></div>
           <div className="project-div"></div>
           <div className="project-div"></div>
-          <div className="project-div"></div>
-          <div className="project-div"></div>
-          <div className="project-div"></div>
         </div>
       </div>
     );

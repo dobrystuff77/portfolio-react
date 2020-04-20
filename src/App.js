@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //new
 import Newnavbar from "./components/Newnavbar";
 import About from "./sections/About";
@@ -12,13 +12,15 @@ import Projects from "./sections/Projects";
 
 function App() {
   return (
-    <>
-      <Newnavbar />
-      <Main />
-      <About />
-      <Projects />
-      <Contact />
-    </>
+    <Router>
+      <>
+        <Newnavbar hash={"home"} />
+        <Main />
+        <About />
+        <Projects />
+        <Contact />
+      </>
+    </Router>
   );
 }
 
