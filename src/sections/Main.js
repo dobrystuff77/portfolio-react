@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
-import Avatar from "./avatar-edit.png";
+import Avatar from "./images/avatar-edit.png";
 class Main extends Component {
   state = {};
   render() {
@@ -19,11 +19,11 @@ class Main extends Component {
               }
             }}
           />
-          <div class="triangle-two">
+          <div className="triangle-two">
             <img src={Avatar} alt="avar" className="avatar-two" />
           </div>
-          <div class="triangle"></div>
-          <div class="title">Junior Full Stack Web Developer</div>
+          <div className="triangle"></div>
+          <div className="title">Junior Full Stack Web Developer</div>
           <div className="short-note">
             Programmer with background in jazz music, and passion for coding!
           </div>

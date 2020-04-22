@@ -1,27 +1,25 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-//new
+
 import Newnavbar from "./components/Newnavbar";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Main from "./sections/Main";
 import Projects from "./sections/Projects";
 
-// import CssBaseline from "@material-ui/core/CssBaseline";
-
-function App() {
-  return (
-    <Router>
+class App extends Component {
+  state = {};
+  render() {
+    return (
       <>
-        <Newnavbar hash={"home"} />
+        <Newnavbar />
         <Main />
         <About />
         <Projects />
         <Contact />
       </>
-    </Router>
-  );
+    );
+  }
 }
 
 export default App;

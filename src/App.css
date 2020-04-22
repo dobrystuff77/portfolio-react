@@ -59,6 +59,7 @@ body {
   /* border: 2px solid yellow; */
   list-style: none;
   text-align: center;
+  position: relative;
 }
 
 .navbar ul li {
@@ -72,7 +73,22 @@ body {
 
 .underline {
   text-decoration: underline;
+  transition: 0.5s;
 }
+
+/* .new-underline {
+  position: absolute;
+  border: 2px solid pink;
+  width: 15%;
+  height: 20%;
+}
+
+.about-underline {
+  position: absolute;
+  border: 2px solid pink;
+  width: 15%;
+  height: 20%;
+} */
 /* ////////////////////////////////////////////////////////////////////////////////// */
 .portfolio {
   margin-left: 10px;
@@ -226,7 +242,7 @@ body {
 }
 .languages-container {
   /* margin-top: 40px; */
-  width: 85%;
+  max-width: 90%;
   /* height: 500px; */
   /* height: 100%; */
   border-top-left-radius: 30px;
@@ -297,27 +313,33 @@ body {
   border-top-right-radius: 30px; */
   background: shyblue;
   /* font-size: 110px; */
-  padding-top: 85px;
+  padding-top: 80px;
 }
 
 .projects-section .title {
-  color: white;
+  color: black;
+  font-size: 30px;
   /* margin-bottom: 20px;
   margin-right: 20px; */
   justify-content: center;
   align-items: center;
+  margin-bottom: 0px;
+  top: 25px;
+  position: absolute;
 }
 
 .projects-container {
-  /* margin-top: 40px; */
-  width: 95%;
+  width: 90%;
   /* height: 90%; */
   /* height: 500px; */
   /* height: 100%; */
-
-  padding-top: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 70px;
   /* margin-bottom: 30px; */
-  /* background-color: white; */
+  background-color: white;
   /* -moz-box-shadow: 0 0 5px #ccc;
     -webkit-box-shadow: 0 0 5px #ccc; */
   /* box-shadow: 0 0 5px #ccc; */
@@ -325,6 +347,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .project-div {
@@ -335,15 +358,136 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   /* -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc; */
   /* margin-bottom: 30px; */
+  overflow: hidden;
+  position: relative;
+  /* cursor: pointer; */
 }
+
+.project-picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cover {
+  position: absolute;
+  /* background: rgb(255, 255, 255, 0); */
+  background: rgb(255, 255, 255);
+  opacity: 0;
+  transition: 0.5s ease;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* font-weight: bold; */
+  /* font-size: 18px; */
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.cover .title {
+  font-weight: bold;
+
+  padding: 0px;
+  color: white;
+  font-size: 24px;
+  position: static;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cover:hover {
+  background: skyblue;
+  opacity: 1;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  color: white;
+  border: 2px solid white;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: skyblue;
+  background: white;
+}
+
+.project-container {
+  width: 60%;
+  /* margin-top: 30px; */
+  min-height: 80vh;
+  padding: 10px;
+  /* padding-top: 15px; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* border: 2px solid pink; */
+  background: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+
+.project-container .title {
+  color: black;
+  font-size: 30px;
+  /* margin-bottom: 20px;
+  margin-right: 20px; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.arrow-back {
+  position: absolute;
+  top: 3px;
+  width: 25px;
+  fill: skyblue;
+}
+
+.back-to {
+  /* width: 100%; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 .contact-section {
   /* position: absolute;
@@ -361,6 +505,15 @@ body {
 @media screen and (max-width: 850px) {
   .title {
     font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .project-container {
+    width: 95%;
+  }
+
+  .project-container .title {
+    font-size: 27px;
   }
 }
 
@@ -408,6 +561,7 @@ body {
     display: inline;
     cursor: pointer;
     font-weight: bold;
+    position: relative;
   }
 }
 

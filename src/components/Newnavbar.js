@@ -1,20 +1,22 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-
+////////////////////////////////////////////
+import PropTypes from "prop-types";
+import { withRouter } from "react-router";
+////////////////////////////////////////////
 class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
       scrolled: false
     };
-    console.log("this.location.props", this.props.location);
   }
 
   componentDidMount() {
     // const home = document.getElementById("main-nav");
     // home.classList.add("underline");
 
-    console.log("this.props.home: ", this.props.hash);
+    console.log("this.props.home: ", this.props);
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY < 50;
 
@@ -61,7 +63,7 @@ class Navbar extends Component {
       >
         <ul>
           <Link
-            activeClass="active"
+            activeClass="underline"
             to="main"
             spy={true}
             smooth={true}
@@ -77,7 +79,7 @@ class Navbar extends Component {
             </li>
           </Link>
           <Link
-            activeClass="active"
+            activeClass="underline"
             to="about"
             spy={true}
             smooth={true}
@@ -93,7 +95,7 @@ class Navbar extends Component {
             </li>
           </Link>
           <Link
-            activeClass="active"
+            activeClass="underline"
             to="projects"
             spy={true}
             smooth={true}
@@ -109,7 +111,7 @@ class Navbar extends Component {
             </li>
           </Link>
           <Link
-            activeClass="active"
+            activeClass="underline"
             to="contact"
             spy={true}
             smooth={true}

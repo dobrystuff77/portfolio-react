@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "title": "Spotify Search",
+      "short_desc": "Search for albums or artists using Spotify API. ddddd dddd dddd dddd dddd",
+      "main_image": "/projects/spotify_search/spotify.png"
+    },
+    {
+      "title": "Fruity Board",
+      "main_image": "/projects/fruity_board/fruity_board.png"
+    },
+    {
+      "title": "Fruity Board",
+      "main_image": "/projects/fruity_board/fruity_board.png"
+    },
+    {
+      "title": "Fruity Board",
+      "main_image": "/projects/fruity_board/fruity_board.png"
+    },
+
+    {
+      "title": "Social Network",
+      "main_image": "/projects/fruity_board/fruity_board.png"
+    }
+  ]
+}
