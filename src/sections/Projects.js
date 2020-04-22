@@ -35,6 +35,7 @@ class Projects extends Component {
   }
 
   render() {
+    console.log("data: ", data);
     console.log("this.state.index: ", this.state.index);
     return (
       <div className="projects-section" id="projects">
@@ -94,6 +95,23 @@ class Projects extends Component {
                   />
                 </div>
               </div>
+              <div className="short-desc">
+                {this.state.projects[this.state.index].short_desc}
+              </div>
+              <div className="links">
+                page live:
+                <a href={this.state.projects[this.state.index].live_page}>
+                  live
+                </a>
+                <br />
+                GitHub:
+                <a href={this.state.projects[this.state.index].git}>git</a>
+              </div>
+              {this.state.projects[this.state.index].desc.map(
+                (paragraphs, index) => {
+                  return <div>{paragraphs.title}</div>;
+                }
+              )}
             </div>
           </>
         )}
