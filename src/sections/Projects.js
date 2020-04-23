@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import data from "./data.json";
 import ArrowBack from "./images/arrow-back.svg";
+import Www from "./images/www.svg";
+import Git from "./images/github.svg";
+
 import { Link } from "react-scroll";
 // console.log("data: ", data);
 
@@ -99,17 +102,36 @@ class Projects extends Component {
                 {this.state.projects[this.state.index].short_desc}
               </div>
               <div className="links">
-                page live:
-                <a href={this.state.projects[this.state.index].live_page}>
-                  live
+                <a
+                  href={this.state.projects[this.state.index].live_page}
+                  target="_blank"
+                >
+                  <div className="flex-center">
+                    <div>
+                      <img src={Www} alt="www icon" className="link-icon" />
+                    </div>
+                    <div> View Website</div>
+                  </div>
                 </a>
-                <br />
-                GitHub:
-                <a href={this.state.projects[this.state.index].git}>git</a>
+                <a
+                  href={this.state.projects[this.state.index].git}
+                  target="_blank"
+                >
+                  <div className="flex-center">
+                    <div>
+                      <img src={Git} alt="www icon" className="link-icon" />
+                    </div>
+                    <div> See on GitHub</div>
+                  </div>
+                </a>
               </div>
               {this.state.projects[this.state.index].desc.map(
                 (paragraphs, index) => {
-                  return <div>{paragraphs.title}</div>;
+                  return (
+                    <div className="desc-container">
+                      <div className="desc-title">{paragraphs.title}</div>
+                    </div>
+                  );
                 }
               )}
             </div>

@@ -242,7 +242,7 @@ body {
 }
 .languages-container {
   /* margin-top: 40px; */
-  max-width: 90%;
+  max-width: 95%;
   /* height: 500px; */
   /* height: 100%; */
   border-top-left-radius: 30px;
@@ -329,7 +329,7 @@ body {
 }
 
 .projects-container {
-  width: 90%;
+  width: 95%;
   /* height: 90%; */
   /* height: 500px; */
   /* height: 100%; */
@@ -469,9 +469,9 @@ body {
   /* margin-bottom: 20px;
   margin-right: 20px; */
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   /* text-align: left; */
-  margin-bottom: 0px;
+  margin-bottom: 13px;
   margin-top: 12px;
   /* padding-left: 40px; */
   position: static;
@@ -481,6 +481,7 @@ body {
 .arrow-back {
   position: absolute;
   top: 27px;
+  /* left: 8px; */
   width: 25px;
   /* border: 2px solid pink; */
 }
@@ -498,25 +499,55 @@ body {
   color: black;
   width: 100%;
   min-height: 40px;
-  padding-left: 50px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
+  padding-bottom: 30px;
+
   /* border: 2px solid green; */
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
   font-style: italic;
 }
 
 .links {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 20px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  align-items: center;
+  height: 25px;
+}
+.link-icon {
+  width: 25px;
+  margin-right: 5px;
+  display: inline;
+}
+
+.desc-container {
+  padding-left: 30px;
+  padding-right: 20px;
+  min-height: 140px;
+  border: 2px solid blue;
+}
+
+.desc-container {
+  font-size: 21px;
+  font-weight: bold;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 .contact-section {
   /* position: absolute;
   top: 300vh; */
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-color: tomato;
   display: flex;
   justify-content: center;
@@ -537,6 +568,12 @@ body {
 
   .project-container .title {
     font-size: 27px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .arrow-back {
+    left: 8px;
   }
 }
 
