@@ -123,7 +123,7 @@ class Navbar extends Component {
               id="contact-nav"
               className={this.props.hash === "contact" && "underline"}
             >
-              CONTACT
+              CONTACTtt
             </li>
           </Link>
         </ul>
