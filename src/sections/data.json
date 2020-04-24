@@ -3,10 +3,22 @@
     {
       "title": "Spotify Search",
       "short_desc": "Search for albums or artists using Spotify API. Search for your favorite artist witout logging in!",
-      "main_image": "/projects/spotify_search/spotify.png",
+      "main_image": "/projects/spotify_search/1.png",
       "git": "https://github.com/dobrystuff77/peppermint-code/tree/master/projects/spotify_search",
       "live_page": "https://fruityboard.herokuapp.com",
-      "desc": [{ "title": "First Title" }, { "title": "Second Title" }]
+      "desc": [
+        {
+          "title": "First Title",
+          "image": "/projects/spotify_search/spotify.png",
+          "text": "some text about spotify search, I need to write something finally..."
+        },
+        {
+          "title": "Second Title",
+          "image": "/projects/spotify_search/2.png",
+          "text": "some text about spotify search, I need to write something finally..."
+        }
+      ],
+      "long_desc": "Long description of Spotify Search. Here I can search for artisty or albums which I like and I dont have to log in. Other things is that Im working on funcionality to be able to listen to te song."
     },
     {
       "title": "Fruity Board",

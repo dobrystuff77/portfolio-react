@@ -107,10 +107,8 @@ class Projects extends Component {
                   target="_blank"
                 >
                   <div className="flex-center">
-                    <div>
-                      <img src={Www} alt="www icon" className="link-icon" />
-                    </div>
-                    <div> View Website</div>
+                    <img src={Www} alt="www icon" className="link-icon" />
+                    <div className="link-tekst"> View Website</div>
                   </div>
                 </a>
                 <a
@@ -125,11 +123,24 @@ class Projects extends Component {
                   </div>
                 </a>
               </div>
+              {this.state.projects[this.state.index].long_desc && (
+                <div className="long-desc">
+                  {this.state.projects[this.state.index].long_desc}
+                </div>
+              )}
               {this.state.projects[this.state.index].desc.map(
-                (paragraphs, index) => {
+                (paragraph, index) => {
                   return (
                     <div className="desc-container">
-                      <div className="desc-title">{paragraphs.title}</div>
+                      <div className="desc-title">{paragraph.title}</div>
+                      <div className="paragraph-text">{paragraph.text}</div>
+                      <div className="project-pic-div">
+                        <img
+                          src={window.location.origin + paragraph.image}
+                          alt={paragraph.title}
+                          className="project-pic"
+                        />
+                      </div>
                     </div>
                   );
                 }

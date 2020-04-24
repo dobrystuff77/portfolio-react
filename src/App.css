@@ -15,6 +15,10 @@ body {
   /* justify-content: center; */
 }
 
+a {
+  text-decoration: none;
+}
+
 /* //////////////////////////////////////////////////////////////////////////////// */
 * {
   box-sizing: border-box;
@@ -460,6 +464,7 @@ body {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  padding-bottom: 40px;
   position: relative;
 }
 
@@ -514,7 +519,16 @@ body {
   padding-left: 30px;
   padding-right: 20px;
   font-size: 20px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  /* border: 1px solid blue; */
+}
+
+.link-tekst {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid yellow; */
+  align-items: center;
 }
 
 .flex-center {
@@ -523,7 +537,8 @@ body {
   margin-top: 10px;
   margin-bottom: 5px;
   align-items: center;
-  height: 25px;
+  height: 32px;
+  /* border: 1px solid red; */
 }
 .link-icon {
   width: 25px;
@@ -531,17 +546,48 @@ body {
   display: inline;
 }
 
-.desc-container {
+.long-desc {
+  /* border: 2px solid tomato; */
   padding-left: 30px;
   padding-right: 20px;
-  min-height: 140px;
-  border: 2px solid blue;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 .desc-container {
   font-size: 21px;
+  /* font-weight: bold; */
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  /* margin-bottom: 20px; */
+  padding-top: 20px;
+  /* border: 2px solid pink; */
+  /* border-top: 2px solid #c8c8c8; */
+  min-height: 140px;
+}
+
+.desc-title {
   font-weight: bold;
 }
+
+.paragraph-text {
+  margin-bottom: 20px;
+}
+.project-pic-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-pic {
+  object-fit: cover;
+  width: 80%;
+}
+
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 .contact-section {
   /* position: absolute;

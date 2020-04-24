@@ -62,70 +62,68 @@ class Navbar extends Component {
         id="navbar"
       >
         <ul>
-          <Link
-            activeClass="underline"
-            to="main"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={0}
-            duration={500}
-          >
-            <li
-              id="main-nav"
-              className={this.props.hash === "home" && "underline"}
+          <li id="main-nav">
+            <Link
+              activeClass="underline"
+              to="main"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              offset={0}
+              duration={500}
             >
               HOME
-            </li>
-          </Link>
-          <Link
-            activeClass="underline"
-            to="about"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={0}
-            duration={500}
+            </Link>
+          </li>
+
+          <li
+            id="about-nav"
+            className={this.props.hash === "about" && "underline"}
           >
-            <li
-              id="about-nav"
-              className={this.props.hash === "about" && "underline"}
+            <Link
+              activeClass="underline"
+              to="about"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              offset={0}
+              duration={500}
             >
               ABOUT
-            </li>
-          </Link>
-          <Link
-            activeClass="underline"
-            to="projects"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={0}
-            duration={500}
+            </Link>
+          </li>
+          <li
+            id="projects-nav"
+            className={this.props.hash === "projects" && "underline"}
           >
-            <li
-              id="projects-nav"
-              className={this.props.hash === "projects" && "underline"}
+            <Link
+              activeClass="underline"
+              to="projects"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              offset={0}
+              duration={500}
             >
               PROJECTS
-            </li>
-          </Link>
-          <Link
-            activeClass="underline"
-            to="contact"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={0}
-            duration={500}
+            </Link>
+          </li>
+          <li
+            id="contact-nav"
+            className={this.props.hash === "contact" && "underline"}
           >
-            <li
-              id="contact-nav"
-              className={this.props.hash === "contact" && "underline"}
+            <Link
+              activeClass="underline"
+              to="contact"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              offset={0}
+              duration={500}
             >
-              CONTACTtt
-            </li>
-          </Link>
+              CONTACT
+            </Link>
+          </li>
         </ul>
       </div>
     );
