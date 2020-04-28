@@ -41,4 +41,6 @@ app.post("/api/message", (req, res) => {
   }
 });
 
-app.listen(port, () => console.log(`Server started on port ${port}`));
+app.listen(process.env.PORT || port, () =>
+  console.log(`Server started on port ${port}`)
+);
