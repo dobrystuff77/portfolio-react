@@ -9,6 +9,7 @@ import Jquery from "./images/jquery.svg";
 import Vue from "./images/vue.svg";
 import Nodejs from "./images/nodejs.svg";
 import Github from "./images/github.svg";
+import { Link } from "react-scroll";
 
 class About extends Component {
   state = {};
@@ -22,7 +23,19 @@ class About extends Component {
           After boot camp I've done a lot of courses creating full stack
           projects and improving my skills. The more I know about programming,
           the more I feel the need to learn. I'm naturally curious, open minded
-          and I love to work in a team :)
+          and I love to work in a team. I am looking for a Junior Full Stack Web
+          Developer position in Berlin. If you have any questions or suggestions
+          feel free to &nbsp;
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={0}
+            duration={500}
+          >
+            <div className="link">contact me</div> &nbsp;:)
+          </Link>
         </div>
         <div className="smaller-title">I'm working with:</div>
         <div className="languages-container">
