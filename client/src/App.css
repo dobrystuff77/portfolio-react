@@ -770,12 +770,6 @@ a {
     /* color: white; */
     font-size: 0.9em;
   }
-}
-@media screen and (max-width: 450px) {
-  .title {
-    /* font-size: 20px; */
-  }
-
   .contact-input {
     width: 95%;
   }
@@ -786,6 +780,11 @@ a {
 
   .contact-section .button {
     width: 95%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    /* font-size: 20px; */
   }
 }
 

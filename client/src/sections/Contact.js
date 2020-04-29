@@ -83,22 +83,20 @@ class Contact extends Component {
           placeholder="message"
           className="textarea-contact"
         />
+        <button onClick={() => this.submit()} className="button">
+          Send a message
+        </button>
+        <div className="contact-icons">
+          <div className="contact-icon-div">
+            <img src={Linkedin} className="contact-icon" />
+          </div>
+          <div className="contact-icon-div">
+            <img src={Git} className="contact-icon" />
+          </div>
+        </div>
       </div>
     );
   }
 }
 
 export default Contact;
-
-//a
-// <button onClick={() => this.submit()} className="button">
-//   Send a message
-// </button>
-// <div className="contact-icons">
-//   <div className="contact-icon-div">
-//     <img src={Linkedin} className="contact-icon" />
-//   </div>
-//   <div className="contact-icon-div">
-//     <img src={Git} className="contact-icon" />
-//   </div>
-// </div>
