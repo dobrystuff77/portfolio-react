@@ -609,9 +609,9 @@ a {
 .contact-section {
   /* position: absolute;
   top: 300vh; */
-  padding-top: 40px;
+  padding-top: 70px;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: skyblue;
   display: flex;
   justify-content: center;
@@ -626,9 +626,19 @@ a {
 }
 
 .title-contact {
-  font-size: 40px;
+  font-size: 37px;
   font-weight: bold;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.empty-div {
+  height: 20px;
+  font-weight: bold;
+}
+
+.empty-fields {
+  display: flex;
+  font-size: 15px;
 }
 
 .text-contact {
@@ -684,16 +694,16 @@ a {
 }
 
 .contact-icon {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   /* margin: 4px; */
   /* margin-top: 20px; */
   transition: 0.3s ease;
 }
 
 .contact-icon:hover {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 @media screen and (max-width: 850px) {
@@ -802,4 +812,22 @@ a {
     /* color: white; */
     font-size: 0.8em;
   }
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* SCROLL-BAR */
+body::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  background-color: skyblue;
+  z-index: -1;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: skyblue;
+  z-index: -1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  z-index: -1;
 }

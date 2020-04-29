@@ -50,14 +50,17 @@ class Contact extends Component {
       <div className="contact-section" id="contact">
         <div className="aeroplane-div">
           <img src={Aeroplane} className="aeroplane" />
+        </div>
+        <div className="title-contact">Contact me!</div>
 
+        <div className="empty-div">
           {this.state.emptyFields && (
-            <>
-              EMPTY FIELDS<div onClick={() => this.closeEmpty()}>X</div>
-            </>
+            <div className="empty-fields">
+              <div>EMPTY FIELDS</div>
+              <div onClick={() => this.closeEmpty()}>&nbsp;X</div>
+            </div>
           )}
         </div>
-        <div className="title-contact">Contact me!!</div>
         <input
           name="name"
           onChange={e => this.handleChange(e)}
