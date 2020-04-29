@@ -46,30 +46,31 @@ class Contact extends Component {
   }
 
   render() {
-    return <div className="contact-section" id="contact"></div>;
+    return (
+      <div className="contact-section" id="contact">
+        <div className="aeroplane-div">
+          <img src={Aeroplane} className="aeroplane" />
+
+          {this.state.emptyFields && (
+            <>
+              EMPTY FIELDS<div onClick={() => this.closeEmpty()}>X</div>
+            </>
+          )}
+        </div>
+        <div className="title-contact">Contact me!</div>//{" "}
+        <input
+          name="name"
+          onChange={e => this.handleChange(e)}
+          placeholder="name"
+          className="contact-input"
+        />
+      </div>
+    );
   }
 }
 
 export default Contact;
 
-//
-//
-// <div className="aeroplane-div">
-//   <img src={Aeroplane} className="aeroplane" />
-// </div>
-// <div className="title-contact">Contact me!</div>
-//
-// {this.state.emptyFields && (
-//   <>
-//     EMPTY FIELDS<div onClick={() => this.closeEmpty()}>X</div>
-//   </>
-// )}
-// <input
-//   name="name"
-//   onChange={e => this.handleChange(e)}
-//   placeholder="name"
-//   className="contact-input"
-// />
 //
 // <input
 //   name="email"
