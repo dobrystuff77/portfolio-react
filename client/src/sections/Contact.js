@@ -64,6 +64,25 @@ class Contact extends Component {
           placeholder="name"
           className="contact-input"
         />
+
+        <input
+          name="email"
+          onChange={e => this.handleChange(e)}
+          placeholder="your email"
+          className="contact-input"
+        />
+        <input
+          name="subject"
+          onChange={e => this.handleChange(e)}
+          placeholder="subject"
+          className="contact-input"
+        />
+        <textarea
+          name="message"
+          onChange={e => this.handleChange(e)}
+          placeholder="message"
+          className="textarea-contact"
+        />
       </div>
     );
   }
@@ -71,25 +90,6 @@ class Contact extends Component {
 
 export default Contact;
 
-// <input
-//   name="email"
-//   onChange={e => this.handleChange(e)}
-//   placeholder="your email"
-//   className="contact-input"
-// />
-// <input
-//   name="subject"
-//   onChange={e => this.handleChange(e)}
-//   placeholder="subject"
-//   className="contact-input"
-// />
-
-// <textarea
-//   name="message"
-//   onChange={e => this.handleChange(e)}
-//   placeholder="message"
-//   className="textarea-contact"
-// />
 // <button onClick={() => this.submit()} className="button">
 //   Send a message
 // </button>
