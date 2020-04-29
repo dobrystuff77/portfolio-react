@@ -46,57 +46,57 @@ class Contact extends Component {
   }
 
   render() {
-    return (
-      <div className="contact-section" id="contact">
-        <div className="aeroplane-div">
-          <img src={Aeroplane} className="aeroplane" />
-        </div>
-        <div className="title-contact">Contact me!</div>
-
-        {this.state.emptyFields && (
-          <>
-            EMPTY FIELDS<div onClick={() => this.closeEmpty()}>X</div>
-          </>
-        )}
-        <input
-          name="name"
-          onChange={e => this.handleChange(e)}
-          placeholder="name"
-          className="contact-input"
-        />
-
-        <input
-          name="email"
-          onChange={e => this.handleChange(e)}
-          placeholder="your email"
-          className="contact-input"
-        />
-        <input
-          name="subject"
-          onChange={e => this.handleChange(e)}
-          placeholder="subject"
-          className="contact-input"
-        />
-        <textarea
-          name="message"
-          onChange={e => this.handleChange(e)}
-          placeholder="message"
-          className="textarea-contact"
-        />
-        <button onClick={() => this.submit()} className="button">
-          Send a message
-        </button>
-        <div className="contact-icons">
-          <div className="contact-icon-div">
-            <img src={Linkedin} className="contact-icon" />
-          </div>
-          <div className="contact-icon-div">
-            <img src={Git} className="contact-icon" />
-          </div>
-        </div>
-      </div>
-    );
+    return <div className="contact-section" id="contact"></div>;
   }
 }
 
 export default Contact;
+
+//
+//
+// <div className="aeroplane-div">
+//   <img src={Aeroplane} className="aeroplane" />
+// </div>
+// <div className="title-contact">Contact me!</div>
+//
+// {this.state.emptyFields && (
+//   <>
+//     EMPTY FIELDS<div onClick={() => this.closeEmpty()}>X</div>
+//   </>
+// )}
+// <input
+//   name="name"
+//   onChange={e => this.handleChange(e)}
+//   placeholder="name"
+//   className="contact-input"
+// />
+//
+// <input
+//   name="email"
+//   onChange={e => this.handleChange(e)}
+//   placeholder="your email"
+//   className="contact-input"
+// />
+// <input
+//   name="subject"
+//   onChange={e => this.handleChange(e)}
+//   placeholder="subject"
+//   className="contact-input"
+// />
+// <textarea
+//   name="message"
+//   onChange={e => this.handleChange(e)}
+//   placeholder="message"
+//   className="textarea-contact"
+// />
+// <button onClick={() => this.submit()} className="button">
+//   Send a message
+// </button>
+// <div className="contact-icons">
+//   <div className="contact-icon-div">
+//     <img src={Linkedin} className="contact-icon" />
+//   </div>
+//   <div className="contact-icon-div">
+//     <img src={Git} className="contact-icon" />
+//   </div>
+// </div>

@@ -16,11 +16,10 @@ class App extends Component {
         <Main />
         <About />
         <Projects />
+        <Contact />
       </>
     );
   }
 }
 
 export default App;
-
-// <Contact />
