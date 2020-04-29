@@ -57,7 +57,7 @@ class Contact extends Component {
             </>
           )}
         </div>
-        <div className="title-contact">Contact me!!</div>//{" "}
+        <div className="title-contact">Contact me!</div>
         <input
           name="name"
           onChange={e => this.handleChange(e)}
@@ -71,7 +71,6 @@ class Contact extends Component {
 
 export default Contact;
 
-//
 // <input
 //   name="email"
 //   onChange={e => this.handleChange(e)}
@@ -84,6 +83,7 @@ export default Contact;
 //   placeholder="subject"
 //   className="contact-input"
 // />
+
 // <textarea
 //   name="message"
 //   onChange={e => this.handleChange(e)}
