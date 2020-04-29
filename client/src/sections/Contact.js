@@ -57,7 +57,7 @@ class Contact extends Component {
             </>
           )}
         </div>
-        <div className="title-contact">Contact me!</div>
+        <div className="title-contact">Contact me!!</div>
         <input
           name="name"
           onChange={e => this.handleChange(e)}
