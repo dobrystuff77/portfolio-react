@@ -28,11 +28,11 @@
       "desc": [
         {
           "title": "Fruity Board",
-          "text": "In this project I used Vue.js for the first time. I can't hide that because it was one of mine first project I was super excited. Inspiration came with love for colors, taste and beautiful symmetrical patterns of fruits. Main conception was to give opportunity to just share images where is at least one visible random fruit. Uploaded Pictures are filtered with help of the Google API, pictures without fruits are rejected. Uploading pictures you can add: title, author, tags and description."
+          "text": "In this project I've used Vue.js for the first time. Inspiration came with love for colors, taste and beautiful symmetrical patterns of fruits. Main conception was to give opportunity to just share images where is at least one visible random fruit. Uploaded Pictures are filtered with help of the Google API, pictures without fruits are rejected. Uploading pictures you can add: title, author, tags and description."
         },
         {
           "title": "Second Title",
-          "image": "/projects/spotify_search/2.png",
+          "image": "/projects/fruity_board/6.png",
           "text": "some text about spotify search, I need to write something finally..."
         }
       ]
