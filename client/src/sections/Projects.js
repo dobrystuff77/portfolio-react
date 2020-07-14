@@ -134,13 +134,18 @@ class Projects extends Component {
                     <div className="desc-container">
                       <div className="desc-title">{paragraph.title}</div>
                       <div className="paragraph-text">{paragraph.text}</div>
-                      <div className="project-pic-div">
-                        <img
-                          src={window.location.origin + paragraph.image}
-                          alt={paragraph.title}
-                          className="project-pic"
-                        />
-                      </div>
+
+                      {paragraph.image && (
+                        <>
+                          <div className="project-pic-div">
+                            <img
+                              src={window.location.origin + paragraph.image}
+                              alt={paragraph.title}
+                              className="project-pic"
+                            />
+                          </div>
+                        </>
+                      )}
                     </div>
                   );
                 }
