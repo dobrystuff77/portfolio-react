@@ -69,7 +69,7 @@ class About extends Component {
               alt="css"
               className="language-icon-handlebars"
             />
-            <div className="language-name">Handebars.js</div>
+            <div className="language-name">Handlebars.js</div>
           </div>
           <div className="language-div">
             <img src={Jquery} alt="css" className="language-icon" />

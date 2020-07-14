@@ -21,45 +21,38 @@
       "long_desc": "Long description of Spotify Search. Here I can search for artisty or albums which I like and I dont have to log in. Other things is that Im working on funcionality to be able to listen to te song."
     },
     {
-      "title": "Fruity Board",
+      "title": "Fuity Board",
+      "main_image": "/projects/fruity_board/1.png",
+      "git": "",
+      "live_page": "",
+      "desc": [
+        {
+          "title": "Fruity Board",
+          "text": "In this project I used Vue.js for the first time. I can't hide that because it was one of mine first project I was super excited. Inspiration came with love for colors, taste and beautiful symmetrical patterns of fruits. Main conception was to give opportunity to just share images where is at least one visible random fruit. Uploaded Pictures are filtered with help of the Google API, pictures without fruits are rejected. Uploading pictures you can add: title, author, tags and description."
+        },
+        {
+          "title": "Second Title",
+          "image": "/projects/spotify_search/2.png",
+          "text": "some text about spotify search, I need to write something finally..."
+        }
+      ]
+    },
+    {
+      "title": "Ecommerce",
       "main_image": "/projects/fruity_board/fruity_board.png",
       "git": "",
       "live_page": "",
       "desc": []
     },
     {
-      "title": "Fruity Board",
+      "title": "Burger Builder - ecommerce",
       "main_image": "/projects/fruity_board/fruity_board.png",
       "git": "",
       "live_page": "",
       "desc": []
     },
     {
-      "title": "Fruity Board",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
-      "title": "Social Network",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
-      "title": "Social Network",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
-      "title": "Social Network",
+      "title": "Kitty Carousel",
       "main_image": "/projects/fruity_board/fruity_board.png",
       "git": "",
       "live_page": "",
@@ -75,7 +68,39 @@
     },
 
     {
-      "title": "Social Network",
+      "title": "Chat app",
+      "main_image": "/projects/fruity_board/fruity_board.png",
+      "git": "",
+      "live_page": "",
+      "desc": []
+    },
+
+    {
+      "title": "To do",
+      "main_image": "/projects/fruity_board/fruity_board.png",
+      "git": "",
+      "live_page": "",
+      "desc": []
+    },
+
+    {
+      "title": "Weather app",
+      "main_image": "/projects/fruity_board/fruity_board.png",
+      "git": "",
+      "live_page": "",
+      "desc": []
+    },
+
+    {
+      "title": "Some api app",
+      "main_image": "/projects/fruity_board/fruity_board.png",
+      "git": "",
+      "live_page": "",
+      "desc": []
+    },
+
+    {
+      "title": "Connect Four",
       "main_image": "/projects/fruity_board/fruity_board.png",
       "git": "",
       "live_page": "",
