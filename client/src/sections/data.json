@@ -33,7 +33,23 @@
         {
           "title": "Frontend",
           "image": "/projects/fruity_board/1.png",
+          "text": "To build a frontend I used just pure HTML/CSS."
+        },
+        {
+          "title": "Backend",
+          "image": "/projects/fruity_board/4.png",
+          "text": "Backend was build with PostgreSQL for database and Node.js with Express server for the rest. Uploaded pictures are sent to AWS S3, in database are stored only URLs. When the picture is rejected you can see the message."
+        },
+
+        {
+          "title": "Routing",
+          "image": "/projects/fruity_board/6.png",
           "text": "To navigate to different sites I'm using Hash-Routing, so selected picture can be send to someone with URL."
+        },
+        {
+          "title": "Interaction",
+          "image": "/projects/fruity_board/2.png",
+          "text": "Click on the picture to make picture bigger and read comments. Now you can add comments using your own nick :) You can also navigate through pictures using left and right arrows and X for closing the modal."
         }
       ]
     },
