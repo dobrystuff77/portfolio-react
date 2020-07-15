@@ -25,12 +25,20 @@
         {
           "title": "Routing",
           "image": "/projects/fruity_board/6.png",
-          "text": "To navigate to different sites I'm using Hash-Routing, so selected picture can be send to someone with URL."
+          "text": "To navigate to different sites I'm using Hash-Routing - selected picture can be send to someone with URL."
         },
         {
           "title": "Interaction",
           "image": "/projects/fruity_board/2.png",
-          "text": "Click on the picture to make picture bigger and read comments. Now you can add comments using your own nick :) You can also navigate through pictures using left and right arrows and X for closing the modal."
+          "text": "Click on the picture to make it bigger and read comments. Now you can add comments using your own nick :) You can also navigate through pictures using left and right arrows and X for closing the modal."
+        },
+        {
+          "title": "Responsiveness",
+          "image": "/projects/fruity_board/responsive1.png",
+          "text": "According to the rule mobile first, page is fully responsive."
+        },
+        {
+          "image": "/projects/fruity_board/responsive2.png"
         }
       ]
     },
