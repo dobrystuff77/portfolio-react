@@ -31,9 +31,9 @@
           "text": "In this project I've used Vue.js for the first time. Inspiration came with love for colors, taste and beautiful symmetrical patterns of fruits. Main conception was to give opportunity to just share images where is at least one visible random fruit. Uploaded Pictures are filtered with help of the Google API, pictures without fruits are rejected. Uploading pictures you can add: title, author, tags and description."
         },
         {
-          "title": "Second Title",
-          "image": "/projects/fruity_board/6.png",
-          "text": "some text about spotify search, I need to write something finally..."
+          "title": "Frontend",
+          "image": "/projects/fruity_board/1.png",
+          "text": "To navigate to different sites I'm using Hash-Routing, so selected picture can be send to someone with URL."
         }
       ]
     },
