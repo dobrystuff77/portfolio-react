@@ -23,8 +23,8 @@
     {
       "title": "Fuity Board",
       "main_image": "/projects/fruity_board/1.png",
-      "git": "",
-      "live_page": "",
+      "git": "https://github.com/dobrystuff77/imageboard",
+      "live_page": "https://fruityboard.herokuapp.com",
       "desc": [
         {
           "title": "Fruity Board",
