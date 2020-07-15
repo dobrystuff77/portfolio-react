@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 ////////////////////////////////////////////
-import PropTypes from "prop-types";
-import { withRouter } from "react-router";
-////////////////////////////////////////////
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -13,35 +10,11 @@ class Navbar extends Component {
   }
 
   componentDidMount() {
-    // const home = document.getElementById("main-nav");
-    // home.classList.add("underline");
+    window.addEventListener("hashchange", console.log("hash changed!"), false);
 
     console.log("this.props.home: ", this.props);
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY < 50;
-
-      // let theHash = window.location.hash;
-      //
-      // const home = document.getElementById("main-nav");
-      // const about = document.getElementById("about-nav");
-      // const projects = document.getElementById("projects-nav");
-      // const contact = document.getElementById("contact-nav");
-      //
-      // if (theHash === "#main") {
-      //   home.classList.add("underline");
-      //   about.classList.remove("underline");
-      //   projects.classList.remove("underline");
-      //   contact.classList.remove("underline");
-      // } else if (theHash === "#about") {
-      //   about.classList.add("underline");
-      // } else if (theHash === "#projects") {
-      //   projects.classList.add("underline");
-      // } else {
-      //   contact.classList.add("underline");
-      // }
-
-      // console.log("theHash:", theHash);
-      // console.log("home", home);
 
       if (isTop !== true) {
         this.setState({ scrolled: true });
@@ -53,6 +26,11 @@ class Navbar extends Component {
   }
   componentWillUnmount() {
     window.removeEventListener("scroll");
+    window.removeEventListener(
+      "hashchange",
+      console.log("unmount hash changed!"),
+      false
+    );
   }
 
   render() {
@@ -78,7 +56,7 @@ class Navbar extends Component {
 
           <li
             id="about-nav"
-            className={this.props.hash === "about" && "underline"}
+            // className={this.props.hash === "about" && "underline"}
           >
             <Link
               activeClass="underline"
@@ -94,7 +72,7 @@ class Navbar extends Component {
           </li>
           <li
             id="projects-nav"
-            className={this.props.hash === "projects" && "underline"}
+            // className={this.props.hash === "projects" && "underline"}
           >
             <Link
               activeClass="underline"
@@ -110,7 +88,7 @@ class Navbar extends Component {
           </li>
           <li
             id="contact-nav"
-            className={this.props.hash === "contact" && "underline"}
+            // className={this.props.hash === "contact" && "underline"}
           >
             <Link
               activeClass="underline"
