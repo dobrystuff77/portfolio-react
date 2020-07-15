@@ -22,18 +22,19 @@
     },
     {
       "title": "Fuity Board",
+      "short_desc": "Upload pictures with fruits, filter them with google API, add comments",
       "main_image": "/projects/fruity_board/1.png",
       "git": "https://github.com/dobrystuff77/imageboard",
       "live_page": "https://fruityboard.herokuapp.com",
       "desc": [
         {
           "title": "Fruity Board",
-          "text": "In this project I've used Vue.js for the first time. Inspiration came with love for colors, taste and beautiful symmetrical patterns of fruits. Main conception was to give opportunity to just share images where is at least one visible random fruit. Uploaded Pictures are filtered with help of the Google API, pictures without fruits are rejected. Uploading pictures you can add: title, author, tags and description."
+          "text": "In this project I've used Vue.js for the first time. Inspiration came with love for colors, taste and beautiful symmetrical patterns of fruits. Main conception was to give opportunity to share images where is at least one visible random fruit. Uploaded Pictures are filtered with help of the Google API, pictures without fruits are rejected. Uploading pictures you can add: title, author, tags and description."
         },
         {
           "title": "Frontend",
           "image": "/projects/fruity_board/1.png",
-          "text": "To build a frontend I used just pure HTML/CSS."
+          "text": "To build a frontend I used pure HTML/CSS."
         },
         {
           "title": "Backend",
