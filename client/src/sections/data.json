@@ -64,11 +64,43 @@
     },
 
     {
-      "title": "Ecommerce",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
+      "title": "Petition",
+      "main_image": "/projects/petition/1.png",
+      "short_desc": "Sign petition to save the trees!",
+      "git": "https://github.com/dobrystuff77/petition",
+      "live_page": "http://finalpetition.herokuapp.com/register",
+      "desc": [
+        {
+          "title": "Frontend",
+          "image": "/projects/petition/2.png",
+          "text": "Everything was build using HTML/CSS."
+        },
+        {
+          "title": "Features",
+          "image": "/projects/petition/3.png",
+          "text": "For connecting with API in order to fetch the date from Spotify Api I'm using AJAX. When you scroll down to the bottom of the results page infinite scroll will fetch next data and add to to previous. Page is responsive."
+        },
+        {
+          "title": "Frontend",
+          "image": "/projects/petition/4.png",
+          "text": "Everything was build using HTML/CSS."
+        },
+        {
+          "title": "Features",
+          "image": "/projects/petition/5.png",
+          "text": "For connecting with API in order to fetch the date from Spotify Api I'm using AJAX. When you scroll down to the bottom of the results page infinite scroll will fetch next data and add to to previous. Page is responsive."
+        },
+        {
+          "title": "Frontend",
+          "image": "/projects/petition/6.png",
+          "text": "Everything was build using HTML/CSS."
+        },
+        {
+          "title": "Features",
+          "image": "/projects/petition/7.png",
+          "text": "For connecting with API in order to fetch the date from Spotify Api I'm using AJAX. When you scroll down to the bottom of the results page infinite scroll will fetch next data and add to to previous. Page is responsive."
+        }
+      ]
     },
     {
       "title": "Burger Builder - ecommerce",
