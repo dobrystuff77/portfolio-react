@@ -7,7 +7,13 @@ import Git from "./images/github3.svg";
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = { emptyFields: false };
+    this.state = {
+      emptyFields: false,
+      name: "",
+      email: "",
+      subject: "",
+      message: ""
+    };
   }
 
   handleChange(e) {
@@ -16,7 +22,9 @@ class Contact extends Component {
 
   closeEmpty() {
     console.log("this.state.emptyFields: ", this.state.emptyFields);
-    this.setState({ emptyFields: false });
+    this.setState({
+      emptyFields: false
+    });
   }
 
   submit() {
@@ -35,6 +43,8 @@ class Contact extends Component {
       })
       .then(data => {
         console.log("res from axios POST/api/message", data.data.data);
+        console.log("state!!!!: ", this.state);
+        this.setState({ name: "", email: "", subject: "", message: "" });
         if (data.data.data === false) {
           console.log("empty field!!");
           this.setState({ emptyFields: true });
@@ -49,7 +59,7 @@ class Contact extends Component {
     return (
       <div className="contact-section" id="contact">
         <div className="aeroplane-div">
-          <img src={Aeroplane} className="aeroplane" />
+          <img src={Aeroplane} className="aeroplane" alt="aeroplane" />
         </div>
         <div className="title-contact">Contact me!</div>
 
@@ -66,6 +76,7 @@ class Contact extends Component {
           onChange={e => this.handleChange(e)}
           placeholder="name"
           className="contact-input"
+          value={this.state.name}
         />
 
         <input
@@ -73,18 +84,21 @@ class Contact extends Component {
           onChange={e => this.handleChange(e)}
           placeholder="your email"
           className="contact-input"
+          value={this.state.email}
         />
         <input
           name="subject"
           onChange={e => this.handleChange(e)}
           placeholder="subject"
           className="contact-input"
+          value={this.state.subject}
         />
         <textarea
           name="message"
           onChange={e => this.handleChange(e)}
           placeholder="message"
           className="textarea-contact"
+          value={this.state.message}
         />
         <button onClick={() => this.submit()} className="button">
           Send a message
