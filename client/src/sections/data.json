@@ -9,7 +9,7 @@
       "desc": [
         {
           "title": "Fruity Board",
-          "text": "In this project I've used Vue.js for the first time. Inspiration came with love for colors, taste and beautiful symmetrical patterns of fruits. Main conception was to give opportunity to share images where is at least one visible random fruit. Uploaded Pictures are filtered with help of the Google API, pictures without fruits are rejected. Uploading pictures you can add: title, author, tags and description."
+          "text": "In this project I've used Vue.js for the first time. Inspiration came with love for colors, taste and beautiful symmetrical patterns of fruits. Main conception was to give opportunity to share images where is at least one visible random fruit. Uploaded Pictures are filtered with help of the Google API, pictures without fruits are rejected.  When uploading pictures you can add: title, author, tags and description."
         },
         {
           "title": "Frontend",
@@ -45,23 +45,22 @@
 
     {
       "title": "Spotify Search",
-      "short_desc": "Search for albums or artists using Spotify API. Find your favorite artist witout logging in!",
+      "short_desc": "Search for albums or artists using Spotify API. Find your favorite artist without logging in!",
       "main_image": "/projects/spotify_search/1.png",
-      "git": "https://github.com/dobrystuff77/peppermint-code/tree/master/projects/spotify_search",
-      "live_page": "https://fruityboard.herokuapp.com",
+      "git": "https://github.com/dobrystuff77/spotify_search",
+      "live_page": "https://spotifysearch1.herokuapp.com",
       "desc": [
         {
-          "title": "First Title",
-          "image": "/projects/spotify_search/spotify.png",
-          "text": "some text about spotify search, I need to write something finally..."
+          "title": "Frontend",
+          "image": "/projects/spotify_search/2.png",
+          "text": "Everything was build using HTML/CSS."
         },
         {
-          "title": "Second Title",
-          "image": "/projects/spotify_search/2.png",
-          "text": "some text about spotify search, I need to write something finally..."
+          "title": "Features",
+          "image": "/projects/spotify_search/3.png",
+          "text": "For connecting with API in order to fetch the date from Spotify Api I'm using AJAX. When you scroll down to the bottom of the results page infinite scroll will fetch next data and add to to previous. Page is responsive."
         }
-      ],
-      "long_desc": "Long description of Spotify Search. Here I can search for artisty or albums which I like and I dont have to log in. Other things is that Im working on funcionality to be able to listen to te song."
+      ]
     },
 
     {
