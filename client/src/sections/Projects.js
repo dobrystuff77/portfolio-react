@@ -74,7 +74,14 @@ class Projects extends Component {
                           </div>
                         </Link>
 
-                        <div className="button">Visit Website</div>
+                        <a
+                          href={project.live_page}
+                          className="page-link"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="button">Visit Website</div>
+                        </a>
                       </div>
                     </div>
                   </div>

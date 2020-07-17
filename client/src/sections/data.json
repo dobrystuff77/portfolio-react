@@ -66,42 +66,74 @@
     {
       "title": "Petition",
       "main_image": "/projects/petition/1.png",
-      "short_desc": "Sign petition to save the trees!",
+      "short_desc": "Sign the petition to save the trees!",
       "git": "https://github.com/dobrystuff77/petition",
       "live_page": "http://finalpetition.herokuapp.com/register",
       "desc": [
         {
           "title": "Frontend",
+          "text": "To build a frontend I used pure HTML/CSS."
+        },
+        {
+          "title": "Backend",
+          "text": "Backend is build with Node.js, Express.js, and PostgreSQL. Data base is created to store user informations necessary for authentication. Everything is protected from CSURF attacks and SQL injections. For rendering different HTML templates is used Handlebars.js"
+        },
+        {
+          "title": "Features",
+          "image": "/projects/petition/1.png",
+          "text": "To sing the petition you need to register creating your account."
+        },
+        {
           "image": "/projects/petition/2.png",
-          "text": "Everything was build using HTML/CSS."
+          "text": "If you already have an account you can log in."
         },
         {
-          "title": "Features",
           "image": "/projects/petition/3.png",
-          "text": "For connecting with API in order to fetch the date from Spotify Api I'm using AJAX. When you scroll down to the bottom of the results page infinite scroll will fetch next data and add to to previous. Page is responsive."
+          "text": "You sing the petition using virtual sign in canvas which is stored in data base as a string."
         },
         {
-          "title": "Frontend",
           "image": "/projects/petition/4.png",
-          "text": "Everything was build using HTML/CSS."
+          "text": "There is possibility to see all signers."
         },
         {
-          "title": "Features",
           "image": "/projects/petition/5.png",
-          "text": "For connecting with API in order to fetch the date from Spotify Api I'm using AJAX. When you scroll down to the bottom of the results page infinite scroll will fetch next data and add to to previous. Page is responsive."
+          "text": "If it will be necessary you can delete your signature or change your profile informations."
         },
         {
-          "title": "Frontend",
           "image": "/projects/petition/6.png",
-          "text": "Everything was build using HTML/CSS."
+          "text": "Page is fully responsive."
         },
         {
-          "title": "Features",
-          "image": "/projects/petition/7.png",
-          "text": "For connecting with API in order to fetch the date from Spotify Api I'm using AJAX. When you scroll down to the bottom of the results page infinite scroll will fetch next data and add to to previous. Page is responsive."
+          "image": "/projects/petition/7.png"
         }
       ]
     },
+
+    {
+      "title": "Connect Four",
+      "main_image": "/projects/connect_four/1.png",
+      "short_desc": "Game for 2 players based on the original board game. It was second project I've ever built and It was really exciting!",
+      "git": "https://github.com/dobrystuff77/connect_four",
+      "live_page": "http://connectfour2.herokuapp.com",
+      "desc": [
+        {
+          "title": "Logic",
+          "image": "/projects/connect_four/1.png",
+          "text": "Whole logic game was build with Java Script and jQuery."
+        },
+        {
+          "title": "Features",
+          "image": "/projects/connect_four/2.png",
+          "text": "Game has a counter for both players. You can reset the game. Result of the game is stored in local storage so even after closing web window and opening it again you will see result. Alway in the end of the battle you can see cheesy animation where game board is destroyed."
+        },
+        {
+          "title": "Accessibility",
+          "image": "/projects/connect_four/1.png",
+          "text": "You can play the game just using left/right arrow to move pointer and enter to admit chosen column."
+        }
+      ]
+    },
+
     {
       "title": "Burger Builder - ecommerce",
       "main_image": "/projects/fruity_board/fruity_board.png",
@@ -151,14 +183,6 @@
 
     {
       "title": "Some api app",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
-      "title": "Connect Four",
       "main_image": "/projects/fruity_board/fruity_board.png",
       "git": "",
       "live_page": "",
