@@ -133,7 +133,19 @@
         }
       ]
     },
-
+    {
+      "title": "Simple To do",
+      "main_image": "/projects/todo/1.png",
+      "git": "https://github.com/dobrystuff77/simple-todo-PERN",
+      "live_page": "https://simple-todo-pern.herokuapp.com/",
+      "short_desc": "To Do List - add, edit, delete.",
+      "desc": [
+        {
+          "image": "/projects/todo/1.png",
+          "text": "Very simple To Do list app made as a practice of CRUD. Technologies I've used: React.js and bootstrap for front end, and node.js, postgreSQL for back end. All you can do is add, update and delete list elements."
+        }
+      ]
+    },
     {
       "title": "Burger Builder - ecommerce",
       "main_image": "/projects/fruity_board/fruity_board.png",
@@ -166,14 +178,6 @@
     },
 
     {
-      "title": "To do",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
       "title": "Weather app",
       "main_image": "/projects/fruity_board/fruity_board.png",
       "git": "",
@@ -182,7 +186,7 @@
     },
 
     {
-      "title": "Some api app",
+      "title": "Rick and Morty API",
       "main_image": "/projects/fruity_board/fruity_board.png",
       "git": "",
       "live_page": "",
