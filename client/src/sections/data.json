@@ -119,12 +119,12 @@
         {
           "title": "Logic",
           "image": "/projects/connect_four/1.png",
-          "text": "Whole logic game was build with Java Script and jQuery."
+          "text": "Whole logic game was built with Java Script and jQuery."
         },
         {
           "title": "Features",
           "image": "/projects/connect_four/2.png",
-          "text": "Game has a counter for both players. You can reset the game. Result of the game is stored in local storage so even after closing web window and opening it again you will see result. Alway in the end of the battle you can see cheesy animation where game board is destroyed."
+          "text": "Game has a counter for both players. You can reset the game. Result of the game is stored in local storage so even after closing web window and opening it again you will see result. Always in the end of the battle you can see cheesy animation where game board is destroyed."
         },
         {
           "title": "Accessibility",
@@ -148,45 +148,6 @@
     },
     {
       "title": "Burger Builder - ecommerce",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-    {
-      "title": "Kitty Carousel",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
-      "title": "Social Network",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
-      "title": "Chat app",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
-      "title": "Weather app",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
-    },
-
-    {
-      "title": "Rick and Morty API",
       "main_image": "/projects/fruity_board/fruity_board.png",
       "git": "",
       "live_page": "",
