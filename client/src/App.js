@@ -12,15 +12,15 @@ import data from "./sections/data.json";
 class App extends Component {
   state = {};
 
-  componentDidMount() {
-    // console.log("!!!", data);
-    // console.log(data.projects.length);
-    // for (let i = 0; i < data.projects.length; i++) {
-    //   console.log(data.projects[i].live_page);
-    //   fetch(data.projects[i].live_page);
-    // }
-    fetch("http://www.kanten-meer.herokuapp.com");
-  }
+  // componentDidMount() {
+  //   // console.log("!!!", data);
+  //   // console.log(data.projects.length);
+  //   // for (let i = 0; i < data.projects.length; i++) {
+  //   //   console.log(data.projects[i].live_page);
+  //   //   fetch(data.projects[i].live_page);
+  //   // }
+  //   fetch("https://www.wp.pl/");
+  // }
 
   render() {
     return (
