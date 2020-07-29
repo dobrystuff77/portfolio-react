@@ -134,7 +134,7 @@
       ]
     },
     {
-      "title": "Simple To do",
+      "title": "Simple To Do",
       "main_image": "/projects/todo/1.png",
       "git": "https://github.com/dobrystuff77/simple-todo-PERN",
       "live_page": "https://simple-todo-pern.herokuapp.com/",
@@ -142,16 +142,36 @@
       "desc": [
         {
           "image": "/projects/todo/1.png",
-          "text": "Very simple To Do list app made as a practice of CRUD. Technologies I've used: React.js and bootstrap for front end, and node.js, postgreSQL for back end. All you can do is add, update and delete list elements."
+          "text": "Very simple to do list app made as a practice of CRUD. Technologies I've used: React.js and bootstrap for front end, and node.js, postgreSQL for back end. All you can do is add, update and delete list elements."
         }
       ]
     },
     {
-      "title": "Burger Builder - ecommerce",
-      "main_image": "/projects/fruity_board/fruity_board.png",
-      "git": "",
-      "live_page": "",
-      "desc": []
+      "title": "Ricy and Morty API",
+      "main_image": "/projects/rickandmorty_api/1.png",
+      "git": "https://github.com/dobrystuff77/rickandmorty_api_app",
+      "live_page": "https://rickandmortyapi-deada.web.app/",
+      "short_desc": "Search for your favorite Rick and Morty cartoon characters using API.",
+      "desc": [
+        {
+          "title": "Frontend",
+          "image": "/projects/rickandmorty_api/1.png",
+          "text": "HTML/CSS, Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "Ecommerce",
+      "main_image": "/projects/todo/1.png",
+      "git": "https://github.com/dobrystuff77/simple-todo-PERN",
+      "live_page": "https://simple-todo-pern.herokuapp.com/",
+      "short_desc": "To Do List - add, edit, delete.",
+      "desc": [
+        {
+          "image": "/projects/todo/1.png",
+          "text": "Very simple to do list app made as a practice of CRUD. Technologies I've used: React.js and bootstrap for front end, and node.js, postgreSQL for back end. All you can do is add, update and delete list elements."
+        }
+      ]
     }
   ]
 }
