@@ -157,6 +157,27 @@
           "title": "Frontend",
           "image": "/projects/rickandmorty_api/1.png",
           "text": "HTML/CSS, Bootstrap"
+        },
+        {
+          "title": "Features",
+          "image": "/projects/rickandmorty_api/3.png",
+          "text": "Search for characters using date/specie/status filters."
+        },
+        {
+          "image": "/projects/rickandmorty_api/4.png",
+          "text": "Navigate through the search results using pagination."
+        },
+        {
+          "image": "/projects/rickandmorty_api/2.png",
+          "text": "See details about choosen character."
+        },
+        {
+          "title": "Responsiveness",
+          "image": "/projects/rickandmorty_api/5.png",
+          "text": "Page is fully responsive."
+        },
+        {
+          "image": "/projects/rickandmorty_api/6.png"
         }
       ]
     },
