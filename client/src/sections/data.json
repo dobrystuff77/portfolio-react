@@ -147,7 +147,7 @@
       ]
     },
     {
-      "title": "Ricy and Morty API",
+      "title": "Rick and Morty API",
       "main_image": "/projects/rickandmorty_api/1.png",
       "git": "https://github.com/dobrystuff77/rickandmorty_api_app",
       "live_page": "https://rickandmortyapi-deada.web.app/",
@@ -156,7 +156,7 @@
         {
           "title": "Frontend",
           "image": "/projects/rickandmorty_api/1.png",
-          "text": "HTML/CSS, Bootstrap"
+          "text": "React.js, HTML/CSS, Bootstrap"
         },
         {
           "title": "Features",
@@ -183,14 +183,50 @@
     },
     {
       "title": "Ecommerce",
-      "main_image": "/projects/todo/1.png",
-      "git": "https://github.com/dobrystuff77/simple-todo-PERN",
-      "live_page": "https://simple-todo-pern.herokuapp.com/",
-      "short_desc": "To Do List - add, edit, delete.",
+      "main_image": "/projects/ecommerce/1.png",
+      "git": "https://github.com/dobrystuff77/ecommerce",
+      "live_page": "http://164.90.221.191",
+      "short_desc": "Online shop made from scratch with Braintree(PayPal Company) integration.",
       "desc": [
         {
-          "image": "/projects/todo/1.png",
-          "text": "Very simple to do list app made as a practice of CRUD. Technologies I've used: React.js and bootstrap for front end, and node.js, postgreSQL for back end. All you can do is add, update and delete list elements."
+          "title": "Frontend",
+          "image": "/projects/ecommerce/1.png",
+          "text": "React.js, CSS/HTML, Bootstrap"
+        },
+        {
+          "title": "Backend",
+          "text": "Node.js, Express.js, MongoDB. Shop has admin and user routes which gives option of adding categories and products through the admin dashboard. Authentication is based on JWT."
+        },
+        {
+          "title": "Features",
+          "text": "Some of the shop features: create account, login, search for products using search bar and category filters or price filters, see most popular products or newest products, add product to card, remove product from card."
+        },
+        {
+          "image": "/projects/ecommerce/2.png",
+          "text": "Filter products by categories or price range"
+        },
+        {
+          "image": "/projects/ecommerce/3.png",
+          "text": "Card summary"
+        },
+        {
+          "image": "/projects/ecommerce/4.png",
+          "text": "User Dashboard"
+        },
+        {
+          "title": "Responsiveness",
+          "image": "/projects/ecommerce/5.png",
+          "text": "Page is fully responsive."
+        },
+        {
+          "image": "/projects/ecommerce/6.png"
+        },
+        {
+          "image": "/projects/ecommerce/7.png"
+        },
+        {
+          "title": "Future Features",
+          "text": "Edit user profile, purchase history, PayPal payments, manage orders and products by admin, SSL to secure app."
         }
       ]
     }

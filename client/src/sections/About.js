@@ -23,9 +23,9 @@ class About extends Component {
           After boot camp I've done a lot of courses creating full stack
           projects and improving my skills. The more I know about programming,
           the more I feel the need to learn. I'm naturally curious, open minded
-          and I love to work in a team. I am looking for a Junior Full Stack Web
-          Developer position in Berlin. If you have any questions or suggestions
-          feel free to &nbsp;
+          and I love to work in a team. I am looking for a Junior Web Developer
+          position in Berlin. If you have any questions or suggestions feel free
+          to &nbsp;
           <Link
             to="contact"
             spy={true}
