@@ -145,11 +145,17 @@ class Projects extends Component {
                       {paragraph.image && (
                         <>
                           <div className="project-pic-div">
+                            <a
+                              href={window.location.origin + paragraph.image}
+                              alt={paragraph.title}
+                              target="_blank"
+                            />
                             <img
                               src={window.location.origin + paragraph.image}
                               alt={paragraph.title}
                               className="project-pic"
                             />
+                            <a />
                           </div>
                         </>
                       )}
