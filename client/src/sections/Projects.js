@@ -146,17 +146,18 @@ class Projects extends Component {
                         <>
                           <a
                             href={window.location.origin + paragraph.image}
-                            alt={paragraph.title}
                             target="_blank"
-                          />
-                          <div className="project-pic-div">
-                            <img
-                              src={window.location.origin + paragraph.image}
-                              alt={paragraph.title}
-                              className="project-pic"
-                            />
-                          </div>
-                          <a />
+                            rel="noopener noreferrer"
+                            style={{ textDecoration: "underline" }}
+                          >
+                            <div className="project-pic-div">
+                              <img
+                                src={window.location.origin + paragraph.image}
+                                alt={paragraph.title}
+                                className="project-pic"
+                              />
+                            </div>
+                          </a>
                         </>
                       )}
                     </div>

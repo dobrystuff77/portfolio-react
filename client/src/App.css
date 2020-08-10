@@ -253,7 +253,7 @@ a {
 
 .languages-container {
   /* margin-top: 40px; */
-  max-width: 95%;
+  max-width: 1500px;
   /* height: 500px; */
   /* height: 100%; */
   border-top-left-radius: 30px;
@@ -340,7 +340,7 @@ a {
 }
 
 .projects-container {
-  width: 95%;
+  max-width: 1500px;
   /* height: 90%; */
   /* height: 500px; */
   /* height: 100%; */
@@ -712,6 +712,16 @@ a {
 .contact-icon:hover {
   width: 45px;
   height: 45px;
+}
+
+@media screen and (max-width: 1400px) {
+  .languages-container {
+    max-width: 95%;
+  }
+
+  .projects-container {
+    width: 95%;
+  }
 }
 
 @media screen and (max-width: 850px) {
