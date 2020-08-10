@@ -112,7 +112,7 @@
     {
       "title": "Connect Four",
       "main_image": "/projects/connect_four/1.png",
-      "short_desc": "Game for 2 players based on the original board game. It was second project I've ever built and It was really exciting!",
+      "short_desc": "Game for 2 players based on the original board game.",
       "git": "https://github.com/dobrystuff77/connect_four",
       "live_page": "http://connectfour2.herokuapp.com",
       "desc": [
