@@ -284,6 +284,13 @@
           "text": "Reset password with AWS ses"
         }
       ]
+    },
+
+    {
+      "title": "Project in Progress",
+      "main_image": "/projects/inprogress/1.png",
+      "short_desc": "Future project build with Type Script and React.js",
+      "desc": []
     }
   ]
 }
