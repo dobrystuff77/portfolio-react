@@ -34,30 +34,3 @@ class Main extends Component {
 }
 
 export default Main;
-
-// <div class="triangle">
-//   <img src={Avatar} alt="avar" className="avatar" />
-// </div>
-
-// <Link
-//   activeClass="active"
-//   to="about-section"
-//   spy={true}
-//   smooth={true}
-//   hashSpy={true}
-//   offset={0}
-//   duration={500}
-// >
-//   ARR DOWN
-// </Link>;
-
-//
-// <div className="main-text">
-//   <Typed strings={["Hi, I’m Matt. Nice to meet you."]} typeSpeed={50} />
-// </div>
-// <Typed
-//   strings={["Junior Web Developer"]}
-//   typeSpeed={80}
-//   backSpeed={90}
-//   loop
-// />
