@@ -172,30 +172,3 @@ class Projects extends Component {
 }
 
 export default Projects;
-
-//
-// <div className="project-div"></div>
-// <div className="project-div"></div>
-// <div className="project-div"></div>
-// <div className="project-div"></div>
-// <div className="project-div"></div>
-// <div className="project-div"></div>
-// <div className="project-div"></div>
-// <div className="project-div"></div>
-
-// {acceptedFriends &&
-//     acceptedFriends.map((user, index) => {
-//         return (
-//             <>
-//                 <div
-//                     key={index}
-//                     className="friendsmallbox"
-//                 >
-
-// {this.state.pictures.map((picture, index) => (
-//     <img
-//         key={index}
-//         src={picture.picture}
-//         className="smallpicture"
-//     />
-// ))}
