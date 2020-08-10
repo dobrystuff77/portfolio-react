@@ -70,10 +70,7 @@ class Navbar extends Component {
               ABOUT
             </Link>
           </li>
-          <li
-            id="projects-nav"
-            // className={this.props.hash === "projects" && "underline"}
-          >
+          <li id="projects-nav">
             <Link
               activeClass="underline"
               to="projects"
@@ -86,10 +83,7 @@ class Navbar extends Component {
               PROJECTS
             </Link>
           </li>
-          <li
-            id="contact-nav"
-            // className={this.props.hash === "contact" && "underline"}
-          >
+          <li id="contact-nav">
             <Link
               activeClass="underline"
               to="contact"
@@ -109,6 +103,3 @@ class Navbar extends Component {
 }
 
 export default Navbar;
-
-// <div className="nav-wrapper"></div>;
-// <div className="portfolio">PORTFOLIO</div>
