@@ -229,6 +229,61 @@
           "text": "Edit user profile, purchase history, PayPal payments, manage orders and products by admin, SSL to secure app."
         }
       ]
+    },
+    {
+      "title": "Socialnetwork",
+      "main_image": "/projects/socialnetwork/11.png",
+      "git": "https://github.com/dobrystuff77/socialnetwork",
+      "live_page": "https://simplenetwork77.herokuapp.com/",
+      "short_desc": "Create account, add profile picture, add friends, search for friends, take part in group chat.",
+      "desc": [
+        {
+          "title": "Frontend",
+          "image": "/projects/socialnetwork/1.png",
+          "text": "HTML/CSS, React.js"
+        },
+        {
+          "title": "Backend",
+          "text": "Node.js, Express.js, PostgreSQL, AWS S3 for storing pictures with reference in database, passwords are salted-hashed and encrypted with Node and Bcrypt, Cookie Session takes care about already logged in user, page is protected from SQL injections and CSURF attacks, Socket.io protocol for chat feature"
+        },
+        {
+          "title": "Features",
+          "text": "Create account",
+          "image": "/projects/socialnetwork/1.png"
+        },
+        {
+          "image": "/projects/socialnetwork/2.png",
+          "text": "Logged in user profile page"
+        },
+        {
+          "image": "/projects/socialnetwork/22.png",
+          "text": "Edit user profile"
+        },
+        {
+          "image": "/projects/socialnetwork/3.png",
+          "text": "Upload profile picture"
+        },
+        {
+          "image": "/projects/socialnetwork/4.png",
+          "text": "See your friends and your friends invitations"
+        },
+        {
+          "image": "/projects/socialnetwork/5.png",
+          "text": "Other user profile, add friend by sending invitation"
+        },
+        {
+          "image": "/projects/socialnetwork/6.png",
+          "text": "Take part in a group chat"
+        },
+        {
+          "image": "/projects/socialnetwork/7.png",
+          "text": "Search for friends"
+        },
+        {
+          "image": "/projects/socialnetwork/8.png",
+          "text": "Reset password with AWS ses"
+        }
+      ]
     }
   ]
 }
