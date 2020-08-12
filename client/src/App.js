@@ -1,13 +1,13 @@
 import React, { Component } from "react";
+
 import "./App.css";
 
 import Newnavbar from "./components/Newnavbar";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
+// import Contact from "./sections/NewContact";
 import Main from "./sections/Main";
 import Projects from "./sections/Projects";
-
-import data from "./sections/data.json";
 
 class App extends Component {
   state = {};

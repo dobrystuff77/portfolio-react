@@ -12,7 +12,6 @@ class Navbar extends Component {
   componentDidMount() {
     window.addEventListener("hashchange", console.log("hash changed!"), false);
 
-    console.log("this.props.home: ", this.props);
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY < 50;
 
@@ -21,7 +20,6 @@ class Navbar extends Component {
       } else {
         this.setState({ scrolled: false });
       }
-      // console.log("isTop", isTop);
     });
   }
   componentWillUnmount() {
@@ -54,10 +52,7 @@ class Navbar extends Component {
             </Link>
           </li>
 
-          <li
-            id="about-nav"
-            // className={this.props.hash === "about" && "underline"}
-          >
+          <li id="about-nav">
             <Link
               activeClass="underline"
               to="about"

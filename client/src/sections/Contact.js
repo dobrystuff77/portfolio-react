@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import axios from "axios";
+
 import Aeroplane from "./images/aeroplane.svg";
 import Linkedin from "./images/linkedin3.svg";
 import Git from "./images/github3.svg";
+import Loading from "./images/loading.gif";
 
 class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      emptyFields: false,
-      name: "",
+      first: "",
       email: "",
-      subject: "",
-      message: ""
+      message: "",
+      text: "Contact me!",
+      lading: true
     };
   }
 
@@ -20,39 +22,42 @@ class Contact extends Component {
     this.setState({ [e.target.name]: e.target.value });
   }
 
-  closeEmpty() {
-    console.log("this.state.emptyFields: ", this.state.emptyFields);
-    this.setState({
-      emptyFields: false
-    });
-  }
+  async submit() {
+    this.setState({ loading: true, text: "Sending!" });
 
-  submit() {
-    this.setState({ emptyFields: false });
-    console.log("first", this.state.name);
-    console.log("email", this.state.email);
-    console.log("message", this.state.subject);
-    console.log("message", this.state.message);
+    if (
+      this.state.first === "" ||
+      this.state.email === "" ||
+      this.state.message === ""
+    ) {
+      this.setState({ text: "Empty fields!" });
+      return;
+    }
 
-    axios
-      .post("/api/message", {
-        name: this.state.name,
-        email: this.state.email,
-        subject: this.state.subject,
-        message: this.state.message
-      })
-      .then(data => {
-        console.log("res from axios POST/api/message", data.data.data);
-        console.log("state!!!!: ", this.state);
-        this.setState({ name: "", email: "", subject: "", message: "" });
-        if (data.data.data === false) {
-          console.log("empty field!!");
-          this.setState({ emptyFields: true });
+    try {
+      await axios.post(
+        "https://0a9q48fjej.execute-api.eu-west-1.amazonaws.com/production/contact-form",
+        {
+          first: this.state.first,
+          email: this.state.email,
+          message: this.state.message
         }
-      })
-      .catch(err => {
-        console.log(err);
+      );
+
+      this.setState({
+        first: "",
+        email: "",
+        message: "",
+        loading: false,
+        text: "Message sent!"
       });
+    } catch (e) {
+      console.log("error in send email: ", e);
+      this.setState({
+        loading: false,
+        text: "Something went wrong!"
+      });
+    }
   }
 
   render() {
@@ -61,54 +66,63 @@ class Contact extends Component {
         <div className="aeroplane-div">
           <img src={Aeroplane} className="aeroplane" alt="aeroplane" />
         </div>
-        <div className="title-contact">Contact me!</div>
-
-        <div className="empty-div">
-          {this.state.emptyFields && (
-            <div className="empty-fields">
-              <div>EMPTY FIELDS</div>
-              <div onClick={() => this.closeEmpty()}>&nbsp;X</div>
-            </div>
+        <div className="title-contact">{this.state.text}</div>
+        <div className="sending-container">
+          {!this.state.loading ? (
+            <>
+              <input
+                name="first"
+                onChange={e => this.handleChange(e)}
+                placeholder="name"
+                className="contact-input"
+                value={this.state.first}
+              />
+              <input
+                name="email"
+                onChange={e => this.handleChange(e)}
+                placeholder="your contact"
+                className="contact-input"
+                value={this.state.email}
+              />
+              <textarea
+                name="message"
+                onChange={e => this.handleChange(e)}
+                placeholder="message"
+                className="textarea-contact"
+                value={this.state.message}
+              />
+              <button onClick={() => this.submit()} className="button">
+                Send a message
+              </button>
+            </>
+          ) : (
+            <>
+              <img src={Loading} alt="loading icon" />
+            </>
           )}
         </div>
-        <input
-          name="name"
-          onChange={e => this.handleChange(e)}
-          placeholder="name"
-          className="contact-input"
-          value={this.state.name}
-        />
-
-        <input
-          name="email"
-          onChange={e => this.handleChange(e)}
-          placeholder="your email"
-          className="contact-input"
-          value={this.state.email}
-        />
-        <input
-          name="subject"
-          onChange={e => this.handleChange(e)}
-          placeholder="subject"
-          className="contact-input"
-          value={this.state.subject}
-        />
-        <textarea
-          name="message"
-          onChange={e => this.handleChange(e)}
-          placeholder="message"
-          className="textarea-contact"
-          value={this.state.message}
-        />
-        <button onClick={() => this.submit()} className="button">
-          Send a message
-        </button>
         <div className="contact-icons">
           <div className="contact-icon-div">
-            <img src={Linkedin} className="contact-icon" />
+            <a
+              href="https://www.linkedin.com/in/adrian-wysocki-42a3171a6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={Linkedin}
+                className="contact-icon"
+                alt="linkedin-icon"
+              />
+            </a>
           </div>
           <div className="contact-icon-div">
-            <img src={Git} className="contact-icon" />
+            <a
+              href="https://github.com/dobrystuff77/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Git} className="contact-icon" alt="contact-icon" />
+            </a>
           </div>
         </div>
       </div>
@@ -117,4 +131,3 @@ class Contact extends Component {
 }
 
 export default Contact;
-///
