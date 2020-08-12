@@ -112,6 +112,7 @@ class Projects extends Component {
                 <a
                   href={this.state.projects[this.state.index].live_page}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="flex-center">
                     <img src={Www} alt="www icon" className="link-icon" />
@@ -121,6 +122,7 @@ class Projects extends Component {
                 <a
                   href={this.state.projects[this.state.index].git}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="flex-center">
                     <div>

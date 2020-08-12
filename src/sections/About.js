@@ -37,7 +37,11 @@ class About extends Component {
             <div className="link">contact me</div> &nbsp;:)
           </Link>
           <div className="resume-container">
-            <a href="">
+            <a
+              href={window.location.origin + "/AdrianWysockiCV.pdf"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="resume">RESUME</div>
             </a>
           </div>
