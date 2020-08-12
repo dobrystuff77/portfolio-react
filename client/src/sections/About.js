@@ -37,7 +37,9 @@ class About extends Component {
             <div className="link">contact me</div> &nbsp;:)
           </Link>
           <div className="resume-container">
-            <div className="resume">RESUME</div>
+            <a href="">
+              <div className="resume">RESUME</div>
+            </a>
           </div>
         </div>
         <div className="smaller-title">I'm working with:</div>

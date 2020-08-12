@@ -112,7 +112,7 @@ a {
   color: black;
   font-weight: bold;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 40px;
   width: 100%;
 }
@@ -201,6 +201,36 @@ a {
   font-weight: 450;
   cursor: pointer;
   display: inline;
+}
+
+.resume-container {
+  margin-top: 15px;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  width: 95px;
+  height: 33px;
+  font-size: 16px;
+  color: skyblue;
+  font-weight: bold;
+  border: 2px solid skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.resume:hover {
+  color: white;
+  font-weight: bold;
+  border: 2px solid skyblue;
+  background: skyblue;
 }
 
 .languages-container {
