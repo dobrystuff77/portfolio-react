@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
-import { Link } from "react-scroll";
-import Typed from "react-typed";
 import Avatar from "./images/avatar-edit.png";
+
 class Main extends Component {
   state = {};
   render() {

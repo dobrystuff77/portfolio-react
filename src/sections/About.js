@@ -20,8 +20,10 @@ class About extends Component {
         <div className="short-note">
           I can write code as fast and smooth as I can play my saxophone.
           Improvistion is my environment so I feel comfortable in incomfortable
-          situations. I am looking for a Junior Web Developer position, see my
-          resume to know something more about me or just &nbsp;
+          situations. Working in a team is like playing in a band - I know how
+          to communicate even without words. I am looking for a Junior Web
+          Developer position, see my resume to know something more about me or
+          just &nbsp;
           <Link
             to="contact"
             spy={true}
