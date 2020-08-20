@@ -18,14 +18,10 @@ class About extends Component {
       <div className="about-section" id="about">
         <div className="title">Hi, I’m Adrian. Nice to meet you.</div>
         <div className="short-note">
-          Since beginning my journey as a student of SPICED Academy on November
-          2019, programming became my real passion right next to the jazz music.
-          After boot camp I've done a lot of courses creating full stack
-          projects and improving my skills. The more I know about programming,
-          the more I feel the need to learn. I'm naturally curious, open minded
-          and I love to work in a team. I am looking for a Junior Web Developer
-          position in Berlin. If you have any questions or suggestions feel free
-          to &nbsp;
+          I can write code as fast and smooth as I can play my saxophone.
+          Improvistion is my environment so I feel comfortable in incomfortable
+          situations. I am looking for a Junior Web Developer position, see my
+          resume to know something more about me or just &nbsp;
           <Link
             to="contact"
             spy={true}
@@ -46,7 +42,7 @@ class About extends Component {
             </a>
           </div>
         </div>
-        <div className="smaller-title">I'm working with:</div>
+        <div className="smaller-title">Mainly I'm working with:</div>
         <div className="languages-container">
           <div className="language-div">
             <img src={Javascript} alt="css" className="language-icon" />
