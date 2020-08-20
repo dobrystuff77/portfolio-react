@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
+
 import Css from "./images/css.svg";
 import Javascript from "./images/javascript.svg";
 import Psql from "./images/elephant.png";
@@ -9,7 +11,6 @@ import Jquery from "./images/jquery.svg";
 import Vue from "./images/vue.svg";
 import Nodejs from "./images/nodejs.svg";
 import Github from "./images/github.svg";
-import { Link } from "react-scroll";
 
 class About extends Component {
   state = {};
