@@ -19,7 +19,7 @@ class About extends Component {
       <div className="about-section" id="about">
         <div className="title">Hi, I’m Adrian. Nice to meet you.</div>
         <div className="short-note">
-          I can write code as fast and smooth as I can play my saxophone.
+          I can write code as fast and smooth as I can play the saxophone.
           Improvisation is my environment so I feel comfortable in incomfortable
           situations. Working in a team is like playing in a band - I know how
           to communicate even without words. I am looking for a Junior Web
