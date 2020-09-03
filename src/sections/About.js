@@ -20,11 +20,10 @@ class About extends Component {
         <div className="title">Hi, I’m Adrian. Nice to meet you.</div>
         <div className="short-note">
           I can write code as fast and smooth as I can play the saxophone.
-          Improvisation is my environment so I feel comfortable in incomfortable
+          Improvisation is my environment so I feel comfortable in uncomfortable
           situations. Working in a team is like playing in a band - I know how
           to communicate even without words. I am looking for a Junior Web
-          Developer position, see my resume to know something more about me or
-          just &nbsp;
+          Developer position, see my resume or just&nbsp;
           <Link
             to="contact"
             spy={true}
@@ -45,7 +44,7 @@ class About extends Component {
             </a>
           </div>
         </div>
-        <div className="smaller-title">Mainly I'm working with:</div>
+        <div className="smaller-title">I'm working with:</div>
         <div className="languages-container">
           <div className="language-div">
             <img src={Javascript} alt="css" className="language-icon" />
