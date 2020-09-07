@@ -32,7 +32,7 @@ class About extends Component {
             offset={0}
             duration={500}
           >
-            <div className="link">contact me</div> &nbsp;:)
+            <div className="link">contact me.</div>
           </Link>
           <div className="resume-container">
             <a
