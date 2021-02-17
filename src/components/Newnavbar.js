@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-////////////////////////////////////////////
+
 class Navbar extends Component {
   constructor(props) {
     super(props);

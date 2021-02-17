@@ -21,7 +21,6 @@ class Contact extends Component {
     this.setState({
       [stateField]: inputValue
     });
-    console.log(this.state);
   }
   async handleSubmit(event) {
     event.preventDefault();

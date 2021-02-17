@@ -5,7 +5,6 @@ import Www from "./images/www.svg";
 import Git from "./images/github.svg";
 
 import { Link } from "react-scroll";
-// console.log("data: ", data);
 
 class Projects extends Component {
   constructor() {
@@ -18,28 +17,19 @@ class Projects extends Component {
   }
 
   project(index) {
-    console.log("click project");
-    console.log("index:", index);
     this.setState({
       project: true,
       index: index
     });
-
-    console.log("this.state: ", this.state);
-    console.log("this.state.project ", this.state.project);
-    console.log("this.state.projectPath ", this.state.projectPath);
   }
 
   noProject() {
     this.setState({
       project: false
     });
-    console.log("this.state.project ", this.state.project);
   }
 
   render() {
-    console.log("data: ", data);
-    console.log("this.state.index: ", this.state.index);
     return (
       <div className="projects-section" id="projects">
         {!this.state.project && (
