@@ -185,7 +185,7 @@
       "title": "Ecommerce",
       "main_image": "/projects/ecommerce/1.png",
       "git": "https://github.com/dobrystuff77/ecommerce",
-      "live_page": "http://164.90.221.191",
+      "live_page": "http://134.209.238.173",
       "short_desc": "Online shop made from scratch with Braintree(PayPal Company) integration.",
       "desc": [
         {
@@ -288,8 +288,10 @@
 
     {
       "title": "Project in Progress",
-      "main_image": "/projects/inprogress/1.png",
-      "short_desc": "Future project build with Type Script and React.js",
+      "main_image": "/projects/inprogress/2.png",
+      "short_desc": "Project in Progress",
+      "git": "https://github.com/dobrystuff77/kanten-meer",
+      "live_page": "https://kanten-meer.herokuapp.com/",
       "desc": []
     }
   ]
