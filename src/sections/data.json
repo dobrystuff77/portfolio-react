@@ -133,19 +133,30 @@
         }
       ]
     },
+
     {
-      "title": "Simple To Do",
-      "main_image": "/projects/todo/1.png",
-      "git": "https://github.com/dobrystuff77/simple-todo-PERN",
-      "live_page": "https://simple-todo-pern.herokuapp.com/",
-      "short_desc": "To Do List - add, edit, delete.",
+      "title": "Node Tree",
+      "main_image": "/projects/node_tree/1.png",
+      "git": "https://github.com/dobrystuff77/assignment",
+      "live_page": "https://treenode777.web.app/",
+      "short_desc": "Recursive tree that allows you to add infinite number of children and parents",
       "desc": [
+        { "title": "Frontend",
+          "image": "/projects/node_tree/1.png",
+          "text": "React.js, HTML/CSS, Bootstrap"
+        },
         {
-          "image": "/projects/todo/1.png",
-          "text": "Very simple to do list app made as a practice of CRUD. Technologies I've used: React.js and bootstrap for front end, and node.js, postgreSQL for back end. All you can do is add, update and delete list elements."
+          "title": "Features",
+          "image": "/projects/node_tree/1.png",
+          "text": "Add infinite number of children and parents."
+        },
+        {
+          "image": "/projects/node_tree/2.png",
+          "text": "Change title, collapse children, remove any element."
         }
       ]
     },
+
     {
       "title": "Rick and Morty API",
       "main_image": "/projects/rickandmorty_api/1.png",
@@ -287,7 +298,7 @@
     },
 
     {
-      "title": "Project in Progress :)",
+      "title": "Project in Progress",
       "main_image": "/projects/inprogress/2.png",
       "short_desc": "Project in Progress",
       "git": "https://github.com/dobrystuff77/kanten-meer",
