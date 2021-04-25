@@ -22,7 +22,7 @@ class Main extends Component {
             <img src={Avatar} alt="avar" className="avatar-two" />
           </div>
           <div className="triangle"></div>
-          <div className="title">Full Stack Web Developer</div>
+          <div className="title">Front-End Web Developer</div>
           <div className="short-note">
             Programmer with background in jazz music, and passion for coding
           </div>
