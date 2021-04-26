@@ -13,7 +13,6 @@ import Nodejs from "./images/nodejs.svg";
 import Github from "./images/github.svg";
 
 class About extends Component {
-  state = {};
   render() {
     return (
       <div className="about-section" id="about">

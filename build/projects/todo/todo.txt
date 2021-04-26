@@ -1,0 +1,13 @@
+    {
+      "title": "Simple To Do",
+      "main_image": "/projects/todo/1.png",
+      "git": "https://github.com/dobrystuff77/simple-todo-PERN",
+      "live_page": "https://simple-todo-pern.herokuapp.com/",
+      "short_desc": "To Do List - add, edit, delete.",
+      "desc": [
+        {
+          "image": "/projects/todo/1.png",
+          "text": "Very simple to do list app made as a practice of CRUD. Technologies I've used: React.js and bootstrap for front end, and node.js, postgreSQL for back end. All you can do is add, update and delete list elements."
+        }
+      ]
+    },
