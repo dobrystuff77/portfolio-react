@@ -9,7 +9,6 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Montserrat", sans-serif;
-  /* width: 100vw; */
   z-index: -2;
   background-color: skyblue;
 }
@@ -68,7 +67,6 @@ a {
   transition: 0.5s;
 }
 
-/* ////////////////////////////////////////////////////////////////////////////////// */
 .portfolio {
   margin-left: 10px;
   font-weight: bold;
@@ -170,9 +168,8 @@ a {
   top: 0px;
   z-index: 0;
 }
-/* //////////////////////////////////////////////////////////////////////////////// */
-/* ABOUT SECTION */
 
+/* ABOUT SECTION */
 .about-section {
   width: 100%;
   min-height: 100vh;
@@ -206,7 +203,6 @@ a {
 .resume-container {
   margin-top: 15px;
   width: 100%;
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
 }
@@ -284,7 +280,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: shyblue;
+  background: skyblue;
   padding-top: 80px;
 }
 
@@ -532,8 +528,8 @@ a {
   object-fit: cover;
   width: 80%;
 }
-/* ////////////////////////////////////////////////////////////////////////////////
-//CONTACT SECTION */
+
+/*CONTACT SECTION */
 .contact-section {
   padding-top: 70px;
   width: 100%;
@@ -562,7 +558,6 @@ a {
   align-items: center;
   flex-direction: column;
   height: 260px;
-  /* border: 2px solid pink; */
 }
 
 .text-contact {
@@ -709,7 +704,6 @@ a {
   }
 }
 
-/* ////////////////////////////////////////////////////////////////////////////// */
 /* SCROLL-BAR */
 body::-webkit-scrollbar-track {
   background-color: skyblue;

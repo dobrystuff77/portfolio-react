@@ -21,8 +21,7 @@ class About extends Component {
           I can write code as fast and smooth as I can play the saxophone.
           Improvisation is my environment so I feel comfortable in uncomfortable
           situations. Working in a team is like playing in a band - I know how
-          to communicate even without words. I am looking for a Junior Web
-          Developer position, see my resume or just&nbsp;
+          to communicate even without words. I am looking for a Front-End Developer position, see my resume or just&nbsp;
           <Link
             to="contact"
             spy={true}
